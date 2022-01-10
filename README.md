@@ -47,3 +47,8 @@ def learn(concepts, target):
 s_final, g_final = learn(concepts, target)
 print("Final S:", s_final, sep="\n")
 print("Final G:", g_final, sep="\n")
+Sky	Airtemp	Humidity	Wind	Water	Forecast	EnjoySport
+Sunny	Warm	Normal	Strong	Warm	Same	Yes
+Sunny	Warm	High	Strong	Warm	same	Yes
+Rainy	Cold	High	Strong	Warm	Change	No
+Sunny	Warm	High	Strong	Cool	Change	Yes
